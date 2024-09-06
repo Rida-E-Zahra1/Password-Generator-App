@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to left, #0f2027, #203a43, #2c5364);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px; /* Increased margin */
+  color: #ffcc00;
+  font-size: 2rem; /* Increased font size */
+}
+
+.passBox {
+  width: 400px; /* Increased width */
+  padding: 30px; /* Increased padding */
+  background: #2c2c54;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Increased shadow */
+  transition: transform 0.3s ease-in-out;
+}
+
+.passBox:hover {
+  transform: scale(1.05);
+}
+
+.passBoxInp {
+  display: flex;
+  margin-bottom: 30px; /* Increased margin */
+  gap: 15px; /* Increased gap */
+}
+
+.passBoxInp input {
+  flex: 1;
+  padding: 15px; /* Increased padding */
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background-color: #f8f9fa;
+  color: #333;
+  font-size: 1.2rem; /* Increased font size */
+}
+
+.passBoxInp button {
+  font-weight: bold;
+  flex-basis: 25%;
+  padding: 15px; /* Increased padding */
+  border-radius: 5px;
+  border: none;
+  background-color: #ffcc00;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 1.2rem; /* Increased font size */
+}
+
+.passBoxInp button:hover {
+  background: linear-gradient(45deg, #7873f5, #ff6ec4);
+}
+
+.passLength {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px; /* Increased margin */
+}
+
+.passLength label {
+  font-size: 1.2rem; /* Increased font size */
+}
+
+.passLength input[type='number'] {
+  width: 80px; /* Increased width */
+  padding: 12px; /* Increased padding */
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background-color: #f8f9fa;
+  color: #333;
+  font-size: 1.2rem; /* Increased font size */
+}
+
+.passLength input[type='checkbox'] {
+  transform: scale(1.5); /* Increased checkbox size */
+  cursor: pointer;
+}
+
+.btn {
+  width: 100%;
+  font-weight: bold;
+  padding: 15px; /* Increased padding */
+  border-radius: 5px;
+  border: none;
+  background-color: #ffcc00;
+  color: #333;
+  font-size: 1.2rem; /* Increased font size */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background: linear-gradient(45deg, #7873f5, #ff6ec4);
+}
+
+/* Custom styles for the toast container */
+.custom-toast-container .Toastify__toast {
+  background-color: #333; /* Dark background */
+  color: #fff; /* White text */
+  border-radius: 8px; /* Rounded corners */
+  font-size: 1rem; /* Increased font size */
+}
+
+.copyFeedback {
+  color: #ffcc00;
+  font-size: 1.2rem; /* Increased font size */
+  text-align: center;
+  margin-top: 15px; /* Increased margin */
+}
